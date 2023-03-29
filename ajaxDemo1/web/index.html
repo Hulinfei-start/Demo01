@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script  src="js/jquery.min.js"></script>
+</head>
+<body>
+<script>
+    function textAjax() {
+        //向后台发送一个ajax请求
+        //接受相应的数据
+        $.ajax(
+            {
+                type:"post",
+                url:"myServlet1.do",
+                data:"userName=zhangsan&passWord=123456",//此处参数传递可以用json格式  data:{"userName":"zhangsan","passWord":"123456"}
+                dataType:"JSON",
+                //info 是myServlet1.do返回浏览器的值作为参数传到前端
+                success:function (info) {
+                    //遍历从后端取到的结果
+                    $.each(info,function (i,e) {
+                        //输出打印台
+                        console.log(e)
+                    })
+                  /*  alert(info.userName)
+                    alert(info.passWord)
+                    alert(info.name)
+                    alert(info.sge)
+                    alert(info.shengao)
+                    alert(info.gender)*/
+
+                }
+            }
+        )
+    }
+</script>
+<form>
+    <input type="button" value="测试" onclick="textAjax()">
+</form>
+</body>
+</html>
