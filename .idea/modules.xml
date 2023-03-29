@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JstlDemo1/JstlDemo1.iml" filepath="$PROJECT_DIR$/JstlDemo1/JstlDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListenerDemo1/ListenerDemo1.iml" filepath="$PROJECT_DIR$/ListenerDemo1/ListenerDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ajaxDemo1/ajaxDemo1.iml" filepath="$PROJECT_DIR$/ajaxDemo1/ajaxDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ajaxDemo2/ajaxDemo2.iml" filepath="$PROJECT_DIR$/ajaxDemo2/ajaxDemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo1.iml" filepath="$PROJECT_DIR$/demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filterDemo1/filterDemo1.iml" filepath="$PROJECT_DIR$/filterDemo1/filterDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jspDemo1/jspDemo1.iml" filepath="$PROJECT_DIR$/jspDemo1/jspDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jspDemo2/jspDemo2.iml" filepath="$PROJECT_DIR$/jspDemo2/jspDemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/textServlet1/textServlet1.iml" filepath="$PROJECT_DIR$/textServlet1/textServlet1.iml" />
+    </modules>
+  </component>
+</project>
